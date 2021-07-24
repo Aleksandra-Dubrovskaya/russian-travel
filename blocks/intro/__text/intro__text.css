@@ -1,0 +1,10 @@
+.intro__text {
+  border: 1px solid red;
+  color: #fff;
+  max-width: 690px;
+  margin: 0 0 33px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26.08px;
+}
+

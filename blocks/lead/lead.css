@@ -1,0 +1,22 @@
+.lead {
+  border: 1px solid red;
+  max-width: 93%;
+  padding: 48px 0 0 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    max-width: 77%;
+    padding: 56px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 100vw;
+  }
+}
