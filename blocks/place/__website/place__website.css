@@ -1,5 +1,4 @@
 .place__website {
-  border: 1px solid red;
   margin: 0;
   align-self: end;
 }
@@ -7,6 +6,6 @@
 @media screen and (max-width: 425px) {
   .place__website {
     max-width: 288px;
-    margin: 0 0 0 16px;
+    margin-left: 16px;
   }
 }
